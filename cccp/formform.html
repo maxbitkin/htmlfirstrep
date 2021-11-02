@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="formstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h2><i><div class ="d"><a>Регистрация</a></div></i></h2>
+	<div class ="d"><form action="" method=""> <!--action="form.php" method="get/post"-->
+		<label for="login">Логин</label>
+		<input type="text" name="Login" placeholder="Login">
+		<label for="password">Пароль</label>
+		<input type="password" name="password" placeholder="Password">
+		<button type="submit"><a href="index.html">Send</a></button>
+	</form></div>
+
+	<h2><i><div class ="d"><a>Создание фото профиля</a></div></i></h2>
+	<div class ="d"><form action="" method="">
+		<label for="avatar">Фото профиля</label>
+		<input type="file" name="avatar" accept="image/jpg, image/png">
+		<button type="submit">Подтвердить</button>
+	</form></div>
+
+	<h2><i><div class ="d"><a>Выбор тарифа</a></div></i></h2>
+	<div class ="d"><form action="" method="">
+		<label for="tarif">Выберите удобный тариф:</label>
+		<select name="tarif" id="tarif">
+			<option value="С1" disabled>Базовый</option>
+			<option value="С2">Премиальный</option>
+			<option value="С3" selected>Люксовый</option>
+		</select>	
+	</form></div>
+
+	<h2><i><div class ="d"><a>Как вы относитесь к развалу СССР?</a></div></i></h2>
+		<div class ="d"><form action="" method="">
+			<input type="checkbox" name="boxone" checked>
+			<label for="boxone">Положительно</label>
+			
+			<input type="checkbox" name="boxtwo">
+			<label for="boxtwo">Очень положительно</label>
+
+			<input type="checkbox" name="boxthree">
+			<label for="boxthree">Крайне положительно</label>
+
+			<input type="checkbox" name="boxfour" disabled>
+			<label for="boxfour">Отрицательно</label>
+
+			<input type="checkbox" name="boxfive">
+			<label for ="boxfive">Похуй</label>
+	</form></div>
+
+	<h2><i><div class ="d"><a>Укажите ваш возраст</a></div></i></h2>
+	<label for="age"><div class ="d"><a>Возраст</a></div></label>
+	<div class ="d"><input type="number" name="age" min="15" max="100" value="15" step="1"></div>
+
+	<h2><i><div class ="d"><a>Выберите цвет</a></div></i></h2>
+	<div class ="d"><form action="" method="">
+		<input type="color" name="color">
+		<label for=""></label>
+	</form></div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#silka: link{
+	color: blue;
+}
+#silka:visited{
+	color: #E2305E;
+}
+#silka:hover{
+	color:green;
+}
+#silka:active{
+	color:red;
+}
