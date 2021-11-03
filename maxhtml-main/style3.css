@@ -26,6 +26,83 @@ body{
 	margin-left: 500px;
 }
 
-.f img{
-	
+.ter img{
+		width: 300px;
+		position: relative;
+		left: 500px;
+		bottom: 160px;
+	}
+.nem img{
+	width: 300px;
+	position: relative;
+	right: 15px;
+	bottom: 90px;
+}
+
+.r{
+	width: 500px;
+	position: relative;
+	left: 310px;
+}
+.t{
+	width: 490px;
+	position: relative;
+	bottom: 50px;
+}
+.chix img{
+	width: 300px;
+	position: relative;
+	right: 15px;
+	bottom: 240px;
+}
+.g{
+	width: 500px;
+	position: relative;
+	left: 310px;
+	bottom: 150px;
+}
+.o{
+	width: 500px;
+	position: relative;
+	bottom: 220px;
+}
+.ovc img{
+	width: 300px;
+	position: relative;
+	left: 500px;
+	bottom: 310px;
+}
+.xac{
+	width: 500px;
+	position: relative;
+	bottom: 300px;
+	left: 310px;
+}
+.picxac img{
+	width: 300px;
+	position: relative;
+	bottom: 390px;
+	right: 15px;
+}
+.dec{
+	width: 500px;
+	position: relative;
+	bottom: 380px;
+}
+.picdec img{
+	width: 300px;
+	position: relative;
+	left: 500px;
+	bottom: 525px;
+}
+.kor{
+	width: 500px;
+	position: relative;
+	bottom: 500px;
+	left: 350px;
+}
+.pickor img{
+	width: 300px;
+	position: relative;
+	bottom: 540px;
 }
